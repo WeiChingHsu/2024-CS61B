@@ -16,7 +16,7 @@ public class SLList {
     }
 
     /* Variables */
-    /* The first item, if it exists, is at sentinal.next */
+    /* The first item, if it exists, is at sentinel.next */
     /* 用哨兵來避免創建一個空的SLList時，在addLast會遇到的bug*/
     /* Bug：指向null.next*/
     /* 而不是在addLast中加入判斷是使否為空節點的條件，使得程式碼更簡潔 */

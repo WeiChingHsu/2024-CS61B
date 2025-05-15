@@ -37,7 +37,7 @@ public class SLList {
         size = 0;
     }
 
-    /* Adds item x to the  front of the list. */
+    /* Adds item x to the front of the list. */
     public void addFirst(int x) {
         sentinel.next = new IntNode(x, sentinel.next);
         size++;
